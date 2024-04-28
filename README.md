@@ -4,6 +4,9 @@
 
 - Ubuntu 20.04
 - docker
+- Python 3.8
+- pip
+- pandas
 - JDK 1.8
 - [Defects4J 2.0](https://github.com/rjust/defects4j)
 - [CatenaD4J](https://github.com/universetraveller/CatenaD4J.git)
