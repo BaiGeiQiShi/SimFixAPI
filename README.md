@@ -15,7 +15,7 @@
 ## 2. Installation
 
 #### 2.1 Create the docker image
-
+Use the `Dockerfile` in `./Docker` to create the docker image.
 ```shell
 docker build -t simfix-env .
 ```
