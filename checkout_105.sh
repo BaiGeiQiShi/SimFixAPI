@@ -1,6 +1,6 @@
 SCRIPT_DIR=$(pwd)
-file=$SCRIPT_DIR/success.txt
-ROOT_DIR=/SimFix/105_bugs_with_src
+file=$SCRIPT_DIR/105_bugs.txt
+ROOT_DIR=$SCRIPT_DIR/105_bugs_with_src
 
 #for item in `ls $ROOT_DIR`; do
 cat ${file} | while read item
@@ -25,7 +25,6 @@ do
 
     cd ${PROJECT_DIR}
     defects4j compile
-    cp /AnalysisData/runGzoltar/26SampleBugsResult/$item/ochiai.ranking.txt $PROJECT_DIR/ochiai.ranking.txt
 
 << 'COMMENT'
 COMMENT
