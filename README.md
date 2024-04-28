@@ -49,7 +49,7 @@ It takes about 4-5 hours to finish the repair.
 ```
 # Generating the patches
 cd 105_bugs_with_src
-catena4j checkout -p Chart -v 18b2 -w ./Chat18b2
+catena4j checkout -p Chart -v 18b2 -w ./Chart18b2
 cd ..
 ./start_simfix.sh
 ```
