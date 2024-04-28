@@ -74,7 +74,7 @@ After finishing the repair, the results are in folders: `log` and `patch`.
   ```
 
 ## 4. Usage
-You should first checkout the 105 bug in Catena4j
+You should first checkout the 105 bugs in Catena4j and then repair these 105 bugs
 ```shell
 ./checkout_105.sh  #checkout 105 bugs
 ./start_simfix.sh  #repair 105 bugs
