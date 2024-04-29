@@ -11,10 +11,17 @@
 - [Defects4J 2.0](https://github.com/rjust/defects4j)
 - [CatenaD4J](https://github.com/universetraveller/CatenaD4J.git)
 
+## 2. Experiment Setup
+- Timeout: 5h
+- Plausible patches number: 500
 
-## 2. Installation
+## 3. Excluded Bug(s)
+> None
 
-#### 2.1 Create the docker image
+
+## 4. Installation
+
+#### 4.1 Create the docker image
 Use the `Dockerfile` in `./Docker` to create the docker image.
 ```shell
 docker build -t simfix-env .
@@ -22,13 +29,13 @@ docker build -t simfix-env .
 
 This docker image includes **Defects4J**, **CatenaD4J**, and **JDK 1.8**.
 
-#### 2.2 Create the container
+#### 4.2 Create the container
 
 ```shell
 docker run -it --name=simfix simfix-env /bin/bash
 ```
 
-#### 2.3 Clone the SimFix repository
+#### 4.3 Clone the SimFix repository
 
 At the root of this container, we clone the SimFix repository.
 
@@ -37,14 +44,14 @@ cd /
 git clone https://github.com/BaiGeiQiShi/SimFixAPI.git
 ```
 
-#### 2.4 Install dependencies and Setup
+#### 4.4 Install dependencies and Setup
 After testing, we found that using **pip** in the Docker file might cause image creation to fail, so configuration inside the container is required.
 ```shell
 cd ./SimFixAPI
 ./setup.sh
 ```
 
-## 3. Test Installation
+## 5. Test Installation
 It takes about 4-5 hours to finish the repair.
 ```
 # Generating the patches
@@ -77,7 +84,7 @@ After finishing the repair, the results are in folders: `log` and `patch`.
    end of original code*/
   ```
 
-## 4. Usage
+## 6. Usage
 You should first checkout the 105 bugs in Catena4j and then repair these 105 bugs
 ```shell
 ./checkout_105.sh  #checkout 105 bugs
