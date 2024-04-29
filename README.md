@@ -1,5 +1,7 @@
 # SimFix
 
+We have added a parameter to SimFix to indicate the number of generated plausible patches.
+
 ## 1. Environment
 
 - Ubuntu 20.04
