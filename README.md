@@ -17,7 +17,7 @@ We have added a parameter to SimFix to indicate the number of generated plausibl
 - Timeout: 5h
 - Plausible patches number: 500
 
-## 3. Excluded Bug(s)
+## 3. Excluded Bug
 > None
 
 
