@@ -51,6 +51,7 @@ It takes about 4-5 hours to finish the repair.
 cd 105_bugs_with_src
 catena4j checkout -p Chart -v 18b2 -w ./Chart18b2
 cd ..
+cp 105BugsFL/Chart_18_2/* 105_bugs_with_src_backup/Chart18b2/
 ./start_simfix.sh
 ```
 After finishing the repair, the results are in folders: `log` and `patch`.
