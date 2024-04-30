@@ -83,6 +83,10 @@ rebuildIndex();
 ## 7. Experiment Reproduction
 It may take about **20 days** to finish the entire experiment. If you want to fully replicate our experiments on SimFix, please first checkout the 105 bugs in Catena4j and then repair these 105 bugs. You can also modify `105_bugs.txt` to determine the bugs to be fixed.
 ```shell
+# Clean the quick test files
+rm -rf 105_bugs_with_src/*
+
+# Repair bugs
 ./checkout_105.sh  #checkout 105 bugs
 ./start_simfix.sh  #repair 105 bugs
 ```
