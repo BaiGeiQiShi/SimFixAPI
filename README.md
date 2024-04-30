@@ -94,6 +94,9 @@ After finishing the repair, you can also check the results in folders: `log` and
 
 ## 8. Key Files
 ```
+   |——./log/                          //repair log
+   |——./105BugsFL/                    //FL results
+   |——./105_bugs_with_src/            //buggy project directory
    |——105_bugs.txt                    //bug_id list(only fix bugs within this file)
    |——checkout_105.sh                 //download buggy project in 105_bugs.txt
    |——setup.sh                        //prepare environment
