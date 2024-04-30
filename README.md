@@ -92,5 +92,12 @@ rm -rf 105_bugs_with_src/*
 ```
 After finishing the repair, you can also check the results in folders: `log` and `patch`.
 
+## 8. Key Files
+```
+   |——105_bugs.txt                    //bug_id list(only fix bugs within this file)
+   |——checkout_105.sh                 //download buggy project
+   |——setup.sh                        //prepare environment
+   |——start_simfix.sh                 //start repair (you can change timeout here)        
+```
 
 If you have any questions, you can go to the [SimFix](https://github.com/xgdsmileboy/SimFix.git) repository or create issues for more information.
