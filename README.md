@@ -67,7 +67,7 @@ After finishing the repair, the results are in folders: `log` and `patch`.
 
 * `patch` : a single source file repaired by SimFix that can pass the test suite. In the source file, you can find the patch, which is formatted as (example of Chart18b2):
 
-  ```java
+```java
  // start of generated patch
 if(index<=this.keys.size()){
 rebuildIndex();
