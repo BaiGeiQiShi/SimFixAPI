@@ -52,6 +52,7 @@ git clone https://github.com/BaiGeiQiShi/SimFixAPI.git
 After testing, we found that using **pip** in the Docker file might cause image creation to fail, so configuration inside the container is required.
 ```shell
 cd ./SimFixAPI
+chmod +x *
 ./setup.sh
 ```
 
