@@ -92,7 +92,7 @@ rm -rf 105_bugs_with_src/*
 ```
 After finishing the repair, you can also check the results in folders: `log` and `patch`.
 
-## 8. Key Files
+## 8. Structure of the Directories
 ```
    |——./log/                          //repair log
    |——./105BugsFL/                    //FL results
