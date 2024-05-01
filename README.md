@@ -1,5 +1,5 @@
 # SimFix
-This repository is used to replicate the experiments of article **"Towards Effective Multi-Hunk Bug Repair: Detecting, Creating, Evaluating, and Understanding Indivisible Bugs"** on SimFix. If you want to learn more about SimFix, please follow the original repository of [SimFix](https://github.com/xgdsmileboy/SimFix.git).
+This repository is used to replicate the experiments of article **"Detecting, Creating, Repairing, and Understanding Indivisible Multi-Hunk Bugs"** on SimFix. If you want to learn more about SimFix, please follow the original repository of [SimFix](https://github.com/xgdsmileboy/SimFix.git).
 
 ## 1. Modification
 In order to use SimFix more flexibly, we have added a parameter to SimFix to indicate the number of generated plausible patches.
